@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+
+        .img1 {
+
+            padding: 0.5em;
+            height: 130px;
+            width: 220px;
+
+            margin-top: 0.5em;
+        }
+
+        .h1 {
+
+            font-size: 4em;
+            text-align: center;
+            color: black;
+            padding: 0.1em;
+
+        }
+
+        .img3 {
+            height: 500px;
+            width: 420px;
+            margin-left: 1em;
+
+        }
+
+        .img4 {
+            height: 500px;
+            width: 420px;
+            margin-left: 1em;
+        }
+
+        .hr2 {
+            width: 200px;
+            border: solid;
+        }
+
+
+        .a1 {
+            display: inline-block !important;
+            font-weight: bolder;
+            font-size: 1.5em;
+            color: white;
+            text-decoration: none !important;
+            padding: 0.5em;
+
+        }
+
+        .a2 {
+
+            font-size: 1.2em;
+
+            margin-left: 5em;
+        }
+
+
+        .a1:hover {
+            background-color: white !important;
+            color: black;
+        }
+
+        .a3 {
+            color: black;
+            font-weight: bolder;
+            text-decoration: none !important;
+            font-size: 0.5em;
+            padding: 1em;
+
+        }
+
+        .a4 {
+            font-size: 0.5em;
+            color: white;
+            font-weight: bolder;
+            text-decoration: none !important;
+        }
+
+
+        ul {
+            list-style: none;
+        }
+
+        .borderlogin {
+            border-style: solid;
+
+            padding: 2em;
+            margin: auto;
+        }
+
+        .borderhinhanh{
+           
+            border-style: solid;
+            padding: 0.5em;
+            overflow: hidden;
+        }
+        .smallimg{
+            width: 150px;
+            height: 200px;
+            padding-right: 2em;
+            padding-top: 0.5em;
+            
+         
+        }
+        th{
+            padding: 1em;
+            border: solid black;
+            color: red;
+        }
+        td{
+            text-align: center;
+            border: solid;
+        }
+        .abuy{
+            text-align: center;
+            text-decoration: none !important;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <header>
+            <h1 class="h1">♛♚♛LinLinShop♛♚♛</h1>
+        </header>
+
+
+
+
+
+        <div style="background-color: black;  ">
+
+            <nav>
+
+                <ul class="navbar navbar-light">
+                    <li><img class="img1" src="../logochinh.jpg"></li>
+                    <li><a class="a1" href="/home.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a style="font-weight: bolder; color: white; text-decoration:none; font-size: 1.5em;"
+                            href="Pages.html">CATALOGS</a>
+                        <a style="font-weight: bolder; color: white; text-decoration:none; font-size: 1.5em;"
+                            class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="a3" href="#">
+                                    WOMEN'S CLOTHING</a></li>
+                            <li><a class="a3" href="#">WOMEN'S SHOES
+                                </a></li>
+                            <li><a class="a3" href="#">WOMEN'S HANDBAGS
+                                </a></li>
+                            <li><a class="a3" href="#">ACCESSORIES FOR WOMEN
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li><a class="a1" href="/contact.html">CONTACT US</a></li>
+                    <li><a class="a1" href="/login.html">LOGIN</a></li>
+                    <li><a class="a1" href="/signup.html">SIGN UP</a></li>
+                    <li><a class="a1" href="">PROMOTION</a></li>
+                    <li><a class="a2" data-toggle="modal" href="#modalSearch"><i style="color: white;"
+                                class="fa fa-search"></i></a></li>
+                    <li><a style="font-size: 1.2em; " href=""><i style="color:lightskyblue;"
+                                class="fa fa-facebook"></i></a></li>
+                    <li><a style="font-size: 1.2em; " href=""><i style="color:palevioletred;"
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a style="font-size: 1.2em;" href=""><i style="color:white;" class="fa fa-shopping-bag"></i></a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+
+
+
+
+        <div class="container-fluid">
+            <h1 style="text-align: center; padding: 0.5; font-weight: bolder;">PRODUCT DETAIL</h1>
+            <br>
+
+            <div class="col-md-12 col-sm-auto">
+                <div class="row">
+                    <div class="col-md-5 col-sm-auto">
+                       <div class="borderhinhanh">
+                         
+                            <div class="col-md-6">
+                                <div class="row">
+                                <div class="col-md-3" id="image-group">
+                                    <div class="row">
+                                        <img src="vaydo1.jpg" class="smallimg" alt="" id="image_1">
+                                    </div>
+                                    <div class="row">
+                                        <img src="vaydo1,2.jpg" class="smallimg" alt="" id="image_2">
+                                    </div>
+                                    <div class="row">
+                                        <img src="vaydo1,3.jpg" class="smallimg" alt="" id="image_3">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img id="main-image" src="vaydo1.jpg" style="padding-left: 3.5em; padding-top: 0.5em;" width="480" height="600" alt="" />
+                                
+                                </div>
+                               </div>
+                           </div>
+                               
+                        
+                       </div>
+
+                    </div>
+
+                    <div class="col-md-5 col-sm-auto">
+                        <h2 style="color: hotpink; font-weight: bolder;">
+                            RED DRESS
+                        </h2>
+                        <h3 style="color:green;">
+                            Price: 120$
+                        </h3>
+                       <table>
+                           <thead>
+                               <tr>
+                                   <th>Product Code</th>
+                                   <th>Size</th>
+                                   <th>Amount</th>
+                                   <th>Action</th>
+                                   
+                               </tr>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>0001</td>
+                                   <td>S</td>
+                                   <td>10</td>
+                                   <td><a class="abuy" href="">Add to cart</a></td>
+                               </tr>
+                               <tr>
+                                <td>0002</td>
+                                <td>M</td>
+                                <td>10</td>
+                                <td><a class="abuy" href="">Add to cart</a></td>
+                            </tr>
+                            <tr>
+                                <td>0003</td>
+                                <td>L</td>
+                                <td>10</td>
+                                <td><a class="abuy" href="">Add to cart</a></td>
+                            </tr>
+                           </tbody>
+                       </table>
+                       <br>
+                       <h2>PRODUCT DESCRIPTION</h2>
+                        <p>
+                            
+It's a beautifully designed and meticulous product. <br>
+ Bringing to women more noble and luxurious beauty, <br>
+ besides being very trendy and keeping up with current trends.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+    <br>
+    <footer>
+        <div class="container-fluid">
+            <div style="background-color: black; padding: 1em; ">
+                
+
+                <div class="col-md-12 col-sm-auto">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h2 style="color: white; font-size: 1.2em; ">NAVIGATION</h2>
+
+                            <nav>
+
+                                <ul class="navbar-nav">
+
+                                    <li><a class="a4" href="home.html">HOME</a></li>
+                                    <li><a class="a4" href="Pages.html">CATALOG</a></li>
+                                    <li><a class="a4" href="contact.html">CONTACT US</a></li>
+                                    <li><a class="a4" href="login.html">LOGIN</a></li>
+                                    <li><a class="a4" href="signup.html">SIGN UP</a></li>
+
+                                </ul>
+
+                            </nav>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <p style="color: white; font-size: 1.2em;">
+                                INFORMATION
+                            </p>
+                            <p style="color: white; font-size: 0.5em;">
+                                PHONE NUMBER:0927110910
+
+                            </p>
+                            <p style="font-size: 0.5em; color: white;">
+                                ADDRESS: 20 STREET 1B AN LAC WARD, BINH TAN DISTRICT, HO CHI MINH CITY
+                            </p>
+
+                            <p style="font-size: 0.5em; color: white;">@LinLinShop</p>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <nav>
+                                <p style="color: white; font-size: 1.2em;">FAQ</p>
+                                <ul class="navbar-nav">
+                                    <li><a class="a4" href="">TRANSPORT</a></li>
+                                    <li><a class="a4" href="">WARRANTY POLICY
+                                        </a></li>
+                                    <li><a class="a4" href="">RETURN POLICY</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <p style="color: white; font-size: 1.2em;">FOLLOW US</p>
+                            <a style="padding: 0.5em;" href=""><i style="color:lightskyblue;"
+                                    class="fa fa-facebook"></i></a>
+                            <a style="padding: 0.4em;" href=""><i style="color:lightpink;"
+                                    class="fa fa-instagram"></i></a>
+                            <a style="padding: 0.2em;" href=""><i style="color:lightseagreen;"
+                                    class="fa fa-twitter"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    </div>
+    </form>
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        $("#image-group .row img").on({
+            mouseover: function () {
+                $(this).css({
+                    "cursor": "pointer",
+                    "border-width": "thick",
+                });
+            },
+            mouseout: function () {
+                $(this).css({
+                    "cursor": "default",
+                    "border-width": "thin",
+                });
+            },
+            click: function () {
+                var imageUrl = $(this).attr("src");
+                $("#main-image").attr("src", imageUrl);
+                $("#main-image").elevateZoom({
+                    zoomType: "inner",
+                    cursor: "crosshair",
+                    zoomWindowFadeIn: 500,
+                    zoomWindowFadeOut: 750
+                });
+            }
+            // Repeat elevateZoom twice
+        });
+       
+    });
+</script>
